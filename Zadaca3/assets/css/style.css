@@ -1,0 +1,206 @@
+*
+{
+	box-sizing:border-box;
+	margin:0;
+}
+
+img
+{
+	max-width:100%;
+
+}
+
+
+body
+{
+	background-color:#A8A8A8;
+}
+
+@media all and (min-width: 30em) 
+{
+  
+  .slika
+   {
+    float: left;
+    width: 98%;
+    
+  }
+  .space
+  {
+	float:left;
+	width:100%;
+ }
+  .btn1, .btn2
+   {
+   float:left;
+    width:100%;
+  }
+  
+}
+
+@media all and (min-width: 40em) 
+{
+  .slika
+  {
+    float: left;
+    width: 48%;
+  }
+ .space
+ {
+	float:left;
+	width:50%;
+ }
+  .btn1, .btn2
+   {
+   float:left;
+   width:48%;
+  }
+}
+
+
+@media all and (min-width: 60em) 
+{
+  .slika
+  {
+    float: left;
+    width: 24%;
+  }
+  
+  .space
+  {
+	float:left;
+	width:50%;
+  }
+  .btn1, .btn2
+   {
+   float:left;
+   width:48%;
+  }
+}
+
+
+
+.header
+{
+	background-color:#B80000;
+	color: #C8C8C8;
+	padding:10px;
+	font-size:20px;
+	text-align:center;
+}
+
+
+.naslov
+{
+	font-size:25px;
+	padding:10px;
+}
+
+
+.gallery
+{
+	display:block;
+	padding:5px;
+}
+
+.slika
+{
+	margin:3px;
+}
+
+.gallery img
+{
+	display:block;
+	border: 2px solid black;
+	border-radius:5px;
+}
+
+.section
+{
+	clear:both;
+	padding:10px;
+	display:block;
+	width:100%;
+}
+
+
+.section label, .section input
+{
+	width:90%;
+	padding:10px;
+} 
+
+.forma
+{
+	display:block;
+}
+
+
+.space
+{
+	float:left;
+	color:#B80000;
+	font-size:20px;
+}
+
+
+.tekst
+{
+	width:100%;
+	color:#B80000;
+	font-size:20px;
+}
+
+input, .txt
+{
+	border:2px solid #B80000;
+	border-radius:6px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+input:hover, .txt:hover, input:focus, .txt:focus
+{
+	background-color:#B80000;
+	color:white;
+}
+
+.btn1
+{
+	background-color:#00FFFF;
+	float:left;
+}
+
+
+.btn2
+{
+	background-color:red;
+	float:right;
+}
+
+
+.btn1, .btn2
+{	
+	font-size:15px;
+	/*width:45%;*/
+	padding:10px;
+	font-weight:bold;
+	margin-bottom:20px;
+	border-radius:8px;
+	letter-spacing: 2px;
+}
+
+.btn2:hover, .btn2:focus, .btn1:hover, .btn1:focus
+{
+	background-color:B80000;
+	color:white;
+}
+
+.footer
+{	
+	background-color:#B80000;
+	color:#C8C8C8;
+	padding:5px;
+	text-align:center;
+	clear:both;
+}
